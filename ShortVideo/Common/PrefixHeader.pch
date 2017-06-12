@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  ShortVideo
+//
+//  Created by 郑小龙 on 2017/5/25.
+//  Copyright © 2017年 alon. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AFNetworking.h>             // 网络请求
+#import <SVProgressHUD.h>            // 消息弹框
+#import "Request.h"                  // 网络请求封装
+#import "UIColor+Custom.h"           // 自定义颜色分类
+#import <UIImageView+AFNetworking.h> // 网络图片处理
+#import <MJRefresh.h>
+
+#define KBaseURL @"http://192.168.0.5:8888/LoveVideo/" // IP地址，端口号，根目录
+//#define KBaseURL @"http://172.20.10.4:8888/LoveVideo/" // IP地址，端口号，根目录
+#define KLoginStatus @"KLoginStatus"
+#define KUsername @"KUsername"
+#define KHeaderImage @"KHeaderImage"
+#define KUserModel @"KUserModel"
+#define KChangeViewStyle @"KChangeViewStyle"
+#define KWriteVideoIntoAppSuccess @"KWriteVideoIntoAppSuccess"
+#define KGetImageAndVideoPathComplete @"KGetImageAndVideoPathComplete"
+
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+#define Column_Spacing 10.0
+
+#endif /* PrefixHeader_pch */
