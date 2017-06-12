@@ -45,7 +45,6 @@
 		920782BA1EEE66170024932A /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 920782B91EEE66170024932A /* share.png */; };
 		920782BE1EEE680F0024932A /* RobotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920782BC1EEE680F0024932A /* RobotViewController.m */; };
 		920782BF1EEE680F0024932A /* RobotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920782BD1EEE680F0024932A /* RobotViewController.xib */; };
-		923D26BD1EEEE8AD00663F0D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D26BC1EEEE8AD00663F0D /* Test.m */; };
 		9241AF041EE580E80028A388 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9241AF031EE580E80028A388 /* play.png */; };
 		9271B8781ED6B33000779E19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271B8771ED6B33000779E19 /* main.m */; };
 		9271B87B1ED6B33000779E19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271B87A1ED6B33000779E19 /* AppDelegate.m */; };
@@ -112,8 +111,6 @@
 		920782BB1EEE680F0024932A /* RobotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotViewController.h; sourceTree = "<group>"; };
 		920782BC1EEE680F0024932A /* RobotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotViewController.m; sourceTree = "<group>"; };
 		920782BD1EEE680F0024932A /* RobotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RobotViewController.xib; sourceTree = "<group>"; };
-		923D26BB1EEEE8AD00663F0D /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		923D26BC1EEEE8AD00663F0D /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		9241AF031EE580E80028A388 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		9271B8731ED6B33000779E19 /* ShortVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9271B8771ED6B33000779E19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -217,8 +214,6 @@
 			children = (
 				9271B8791ED6B33000779E19 /* AppDelegate.h */,
 				9271B87A1ED6B33000779E19 /* AppDelegate.m */,
-				923D26BB1EEEE8AD00663F0D /* Test.h */,
-				923D26BC1EEEE8AD00663F0D /* Test.m */,
 				9271B87C1ED6B33000779E19 /* RootViewController.h */,
 				9271B87D1ED6B33000779E19 /* RootViewController.m */,
 				9271B8A81ED6C24800779E19 /* HomeViewController.h */,
@@ -641,7 +636,6 @@
 				9271B8781ED6B33000779E19 /* main.m in Sources */,
 				92996A701EDEB6AB00BF41F4 /* UserViewController.m in Sources */,
 				92996A6B1EDE86F800BF41F4 /* RepairPasswordViewController.m in Sources */,
-				923D26BD1EEEE8AD00663F0D /* Test.m in Sources */,
 				920782861EEBEF540024932A /* CommentViewController.m in Sources */,
 				92C7F0701EE0189B0004DDB7 /* UploadVideoViewController.m in Sources */,
 				920782811EEBC5240024932A /* CommentTableViewCell.m in Sources */,
