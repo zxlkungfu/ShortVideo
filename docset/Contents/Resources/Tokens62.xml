@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AbstractJSONModelProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AbstractJSONModelProtocol</TokenIdentifier>
+			<Abstract type="html">A protocol describing an abstract JSONModel class
+JSONModel conforms to this protocol, so it can use itself abstractly</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AbstractJSONModelProtocol/initWithDictionary:error:</TokenIdentifier>
+			<Abstract type="html">All JSONModel classes should implement initWithDictionary:</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dict error:(NSError **)err</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">a dictionary holding JSON objects, to be imported in the model.</Abstract>
+				</Parameter><Parameter>
+					<Name>err</Name>
+					<Abstract type="html">an error or NULL</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDictionary:error:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AbstractJSONModelProtocol/initWithData:error:</TokenIdentifier>
+			<Abstract type="html">All JSONModel classes should implement initWithData:error:</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithData:(NSData *)data error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">representing a JSON response (usually fetched from web), to be imported in the model.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">an error or NULL</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithData:error:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AbstractJSONModelProtocol/toDictionary</TokenIdentifier>
+			<Abstract type="html">All JSONModel classes should be able to export themselves as a dictionary of
+JSON compliant objects.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)toDictionary</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSDictionary dictionary of JSON compliant objects</Abstract></ReturnValue>
+			<Anchor>//api/name/toDictionary</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AbstractJSONModelProtocol/toDictionaryWithKeys:</TokenIdentifier>
+			<Abstract type="html">Export a model class to a dictionary, including only given properties</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)toDictionaryWithKeys:(NSArray *)propertyNames</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyNames</Name>
+					<Abstract type="html">the properties to export; if nil, all properties exported</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDictionary dictionary of JSON compliant objects</Abstract></ReturnValue>
+			<Anchor>//api/name/toDictionaryWithKeys:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

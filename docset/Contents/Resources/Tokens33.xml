@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshBackFooter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshBackFooter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshBackFooter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackFooter/scrollViewContentOffsetDidChange:</TokenIdentifier>
+			<Abstract type="html">当scrollView的contentOffset发生改变的时候调用</Abstract>
+			<DeclaredIn>MJRefreshBackFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViewContentOffsetDidChange:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackFooter/scrollViewContentSizeDidChange:</TokenIdentifier>
+			<Abstract type="html">当scrollView的contentSize发生改变的时候调用</Abstract>
+			<DeclaredIn>MJRefreshBackFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)scrollViewContentSizeDidChange:(NSDictionary *)change</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViewContentSizeDidChange:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackFooter/setState:</TokenIdentifier>
+			<Abstract type="html">刷新状态 一般交给子类内部实现</Abstract>
+			<DeclaredIn>MJRefreshBackFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)setState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setState:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackFooter/endRefreshing</TokenIdentifier>
+			<Abstract type="html">结束刷新状态</Abstract>
+			<DeclaredIn>MJRefreshBackFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)endRefreshing</Declaration>
+			
+			
+			<Anchor>//api/name/endRefreshing</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackFooter/endRefreshingWithNoMoreData</TokenIdentifier>
+			<Abstract type="html">提示没有更多的数据</Abstract>
+			<DeclaredIn>MJRefreshBackFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)endRefreshingWithNoMoreData</Declaration>
+			
+			
+			<Anchor>//api/name/endRefreshingWithNoMoreData</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

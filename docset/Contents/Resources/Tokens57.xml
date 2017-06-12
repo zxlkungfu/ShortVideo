@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AFImageCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AFImageCache</TokenIdentifier>
+			<Abstract type="html">The AFImageCache protocol defines a set of APIs for adding, removing and fetching images from a cache synchronously.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageCache/addImage:withIdentifier:</TokenIdentifier>
+			<Abstract type="html">Adds the image to the cache with the given identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addImage:(UIImage *)image withIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to cache.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The unique identifier for the image in the cache.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addImage:withIdentifier:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageCache/removeImageWithIdentifier:</TokenIdentifier>
+			<Abstract type="html">Removes the image from the cache matching the given identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeImageWithIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The unique identifier for the image in the cache.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A BOOL indicating whether or not the image was removed from the cache.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeImageWithIdentifier:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageCache/removeAllImages</TokenIdentifier>
+			<Abstract type="html">Removes all images from the cache.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeAllImages</Declaration>
+			
+			<ReturnValue><Abstract type="html">A BOOL indicating whether or not all images were removed from the cache.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeAllImages</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageCache/imageWithIdentifier:</TokenIdentifier>
+			<Abstract type="html">Returns the image in the cache associated with the given identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageWithIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The unique identifier for the image in the cache.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An image for the matching identifier, or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithIdentifier:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

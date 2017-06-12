@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImageView+AFNetworking.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImageView(AFNetworking)</TokenIdentifier>
+			<Abstract type="html">This category adds methods to the UIKit framework&apos;s UIImageView class. The methods in this category provide support for loading remote images asynchronously from a URL.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setSharedImageDownloader:</TokenIdentifier>
+			<Abstract type="html">Set the shared image downloader used to download images.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+			
+			<Declaration>+ (void)setSharedImageDownloader:(AFImageDownloader *)imageDownloader</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>imageDownloader</Name>
+					<Abstract type="html">The shared image downloader used to download images.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSharedImageDownloader:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/sharedImageDownloader</TokenIdentifier>
+			<Abstract type="html">The shared image downloader used to download images.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+			
+			<Declaration>+ (AFImageDownloader *)sharedImageDownloader</Declaration>
+			
+			
+			<Anchor>//api/name/sharedImageDownloader</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImageWithURL:</TokenIdentifier>
+			<Abstract type="html">Asynchronously downloads an image from the specified URL, and sets it once the request is finished. Any previous image request for the receiver will be cancelled.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageWithURL:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The URL used for the image request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setImageWithURL:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImageWithURL:placeholderImage:</TokenIdentifier>
+			<Abstract type="html">Asynchronously downloads an image from the specified URL, and sets it once the request is finished. Any previous image request for the receiver will be cancelled.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageWithURL:(NSURL *)url placeholderImage:(nullable UIImage *)placeholderImage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The URL used for the image request.</Abstract>
+				</Parameter><Parameter>
+					<Name>placeholderImage</Name>
+					<Abstract type="html">The image to be set initially, until the image request finishes. If nil, the image view will not change its image until the image request finishes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setImageWithURL:placeholderImage:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImageWithURLRequest:placeholderImage:success:failure:</TokenIdentifier>
+			<Abstract type="html">Asynchronously downloads an image from the specified URL request, and sets it once the request is finished. Any previous image request for the receiver will be cancelled.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageWithURLRequest:(NSURLRequest *)urlRequest placeholderImage:(nullable UIImage *)placeholderImage success:(nullable void ( ^ ) ( NSURLRequest *request , NSHTTPURLResponse *_Nullable response , UIImage *image ))success failure:(nullable void ( ^ ) ( NSURLRequest *request , NSHTTPURLResponse *_Nullable response , NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>urlRequest</Name>
+					<Abstract type="html">The URL request used for the image request.</Abstract>
+				</Parameter><Parameter>
+					<Name>placeholderImage</Name>
+					<Abstract type="html">The image to be set initially, until the image request finishes. If nil, the image view will not change its image until the image request finishes.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">A block to be executed when the image data task finishes successfully. This block has no return value and takes three arguments: the request sent from the client, the response received from the server, and the image created from the response data of request. If the image was returned from cache, the response parameter will be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the image data task finishes unsuccessfully, or that finishes successfully. This block has no return value and takes three arguments: the request sent from the client, the response received from the server, and the error object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setImageWithURLRequest:placeholderImage:success:failure:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/cancelImageDownloadTask</TokenIdentifier>
+			<Abstract type="html">Cancels any executing image operation for the receiver, if one exists.</Abstract>
+			<DeclaredIn>UIImageView+AFNetworking.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelImageDownloadTask</Declaration>
+			
+			
+			<Anchor>//api/name/cancelImageDownloadTask</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AFImageRequestCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AFImageRequestCache</TokenIdentifier>
+			<Abstract type="html">The ImageRequestCache protocol extends the ImageCache protocol by adding methods for adding, removing and fetching images from a cache given an NSURLRequest and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+            
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageRequestCache/addImage:forRequest:withAdditionalIdentifier:</TokenIdentifier>
+			<Abstract type="html">Adds the image to the cache using an identifier created from the request and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addImage:(UIImage *)image forRequest:(NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to cache.</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The unique URL request identifing the image asset.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The additional identifier to apply to the URL request to identify the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addImage:forRequest:withAdditionalIdentifier:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageRequestCache/removeImageforRequest:withAdditionalIdentifier:</TokenIdentifier>
+			<Abstract type="html">Removes the image from the cache using an identifier created from the request and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeImageforRequest:(NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The unique URL request identifing the image asset.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The additional identifier to apply to the URL request to identify the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A BOOL indicating whether or not all images were removed from the cache.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeImageforRequest:withAdditionalIdentifier:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AFImageRequestCache/imageforRequest:withAdditionalIdentifier:</TokenIdentifier>
+			<Abstract type="html">Returns the image from the cache associated with an identifier created from the request and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageforRequest:(NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The unique URL request identifing the image asset.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The additional identifier to apply to the URL request to identify the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An image for the matching request and identifier, or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageforRequest:withAdditionalIdentifier:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

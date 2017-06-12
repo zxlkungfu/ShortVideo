@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshAutoStateFooter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshAutoStateFooter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/setLabelLeftInset:</TokenIdentifier>
+			<Abstract type="html">文字距离圈圈、箭头的距离</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat labelLeftInset</Declaration>
+			
+			
+			<Anchor>//api/name/labelLeftInset</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/labelLeftInset</TokenIdentifier>
+			<Abstract type="html">文字距离圈圈、箭头的距离</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat labelLeftInset</Declaration>
+			
+			
+			<Anchor>//api/name/labelLeftInset</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoStateFooter/labelLeftInset</TokenIdentifier>
+			<Abstract type="html">文字距离圈圈、箭头的距离</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat labelLeftInset</Declaration>
+			
+			
+			<Anchor>//api/name/labelLeftInset</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/setStateLabel:</TokenIdentifier>
+			<Abstract type="html">显示刷新状态的label</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic, readonly) UILabel *stateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/stateLabel</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/stateLabel</TokenIdentifier>
+			<Abstract type="html">显示刷新状态的label</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic, readonly) UILabel *stateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/stateLabel</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoStateFooter/stateLabel</TokenIdentifier>
+			<Abstract type="html">显示刷新状态的label</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic, readonly) UILabel *stateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/stateLabel</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/setTitle:forState:</TokenIdentifier>
+			<Abstract type="html">设置state状态下的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)title forState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:forState:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/setRefreshingTitleHidden:</TokenIdentifier>
+			<Abstract type="html">隐藏刷新状态的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isRefreshingTitleHidden) BOOL refreshingTitleHidden</Declaration>
+			
+			
+			<Anchor>//api/name/refreshingTitleHidden</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/isRefreshingTitleHidden</TokenIdentifier>
+			<Abstract type="html">隐藏刷新状态的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isRefreshingTitleHidden) BOOL refreshingTitleHidden</Declaration>
+			
+			
+			<Anchor>//api/name/refreshingTitleHidden</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoStateFooter/refreshingTitleHidden</TokenIdentifier>
+			<Abstract type="html">隐藏刷新状态的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isRefreshingTitleHidden) BOOL refreshingTitleHidden</Declaration>
+			
+			
+			<Anchor>//api/name/refreshingTitleHidden</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/prepare</TokenIdentifier>
+			<Abstract type="html">初始化</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)prepare</Declaration>
+			
+			
+			<Anchor>//api/name/prepare</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/placeSubviews</TokenIdentifier>
+			<Abstract type="html">摆放子控件frame</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)placeSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/placeSubviews</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/setState:</TokenIdentifier>
+			<Abstract type="html">刷新状态 一般交给子类内部实现</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)setState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setState:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/setStateTitles:</TokenIdentifier>
+			<Abstract type="html">所有状态对应的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateTitles</Declaration>
+			
+			
+			<Anchor>//api/name/stateTitles</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoStateFooter/stateTitles</TokenIdentifier>
+			<Abstract type="html">所有状态对应的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateTitles</Declaration>
+			
+			
+			<Anchor>//api/name/stateTitles</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoStateFooter/stateTitles</TokenIdentifier>
+			<Abstract type="html">所有状态对应的文字</Abstract>
+			<DeclaredIn>MJRefreshAutoStateFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateTitles</Declaration>
+			
+			
+			<Anchor>//api/name/stateTitles</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

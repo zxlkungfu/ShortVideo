@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CommentViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CommentViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CommentViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CommentViewController/setUsername:</TokenIdentifier>
+			<Abstract type="html">username:回复某个用户，或者自己撰写评论
+url:当前的视频路径
+comment:某个用户的评论</Abstract>
+			<DeclaredIn>CommentViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CommentViewController/username</TokenIdentifier>
+			<Abstract type="html">username:回复某个用户，或者自己撰写评论
+url:当前的视频路径
+comment:某个用户的评论</Abstract>
+			<DeclaredIn>CommentViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CommentViewController/username</TokenIdentifier>
+			<Abstract type="html">username:回复某个用户，或者自己撰写评论
+url:当前的视频路径
+comment:某个用户的评论</Abstract>
+			<DeclaredIn>CommentViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

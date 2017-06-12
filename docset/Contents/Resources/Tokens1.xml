@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AFAutoPurgingImageCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AFAutoPurgingImageCache</TokenIdentifier>
+			<Abstract type="html">The AutoPurgingImageCache in an in-memory image cache used to store images up to a given memory capacity. When the memory capacity is reached, the image cache is sorted by last access date, then the oldest image is continuously purged until the preferred memory usage after purge is met. Each time an image is accessed through the cache, the internal access date of the image is updated.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/setMemoryCapacity:</TokenIdentifier>
+			<Abstract type="html">The total memory capacity of the cache in bytes.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt64 memoryCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/memoryCapacity</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/memoryCapacity</TokenIdentifier>
+			<Abstract type="html">The total memory capacity of the cache in bytes.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt64 memoryCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/memoryCapacity</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFAutoPurgingImageCache/memoryCapacity</TokenIdentifier>
+			<Abstract type="html">The total memory capacity of the cache in bytes.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt64 memoryCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/memoryCapacity</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/setPreferredMemoryUsageAfterPurge:</TokenIdentifier>
+			<Abstract type="html">The preferred memory usage after purge in bytes. During a purge, images will be purged until the memory capacity drops below this limit.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt64 preferredMemoryUsageAfterPurge</Declaration>
+			
+			
+			<Anchor>//api/name/preferredMemoryUsageAfterPurge</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/preferredMemoryUsageAfterPurge</TokenIdentifier>
+			<Abstract type="html">The preferred memory usage after purge in bytes. During a purge, images will be purged until the memory capacity drops below this limit.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt64 preferredMemoryUsageAfterPurge</Declaration>
+			
+			
+			<Anchor>//api/name/preferredMemoryUsageAfterPurge</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFAutoPurgingImageCache/preferredMemoryUsageAfterPurge</TokenIdentifier>
+			<Abstract type="html">The preferred memory usage after purge in bytes. During a purge, images will be purged until the memory capacity drops below this limit.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt64 preferredMemoryUsageAfterPurge</Declaration>
+			
+			
+			<Anchor>//api/name/preferredMemoryUsageAfterPurge</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/setMemoryUsage:</TokenIdentifier>
+			<Abstract type="html">The current total memory usage in bytes of all images stored within the cache.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) UInt64 memoryUsage</Declaration>
+			
+			
+			<Anchor>//api/name/memoryUsage</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/memoryUsage</TokenIdentifier>
+			<Abstract type="html">The current total memory usage in bytes of all images stored within the cache.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) UInt64 memoryUsage</Declaration>
+			
+			
+			<Anchor>//api/name/memoryUsage</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFAutoPurgingImageCache/memoryUsage</TokenIdentifier>
+			<Abstract type="html">The current total memory usage in bytes of all images stored within the cache.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) UInt64 memoryUsage</Declaration>
+			
+			
+			<Anchor>//api/name/memoryUsage</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/init</TokenIdentifier>
+			<Abstract type="html">Initialies the AutoPurgingImageCache instance with default values for memory capacity and preferred memory usage after purge limit. memoryCapcity defaults to 100 MB. preferredMemoryUsageAfterPurge defaults to 60 MB.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">The new AutoPurgingImageCache instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/initWithMemoryCapacity:preferredMemoryCapacity:</TokenIdentifier>
+			<Abstract type="html">Initialies the AutoPurgingImageCache instance with the given memory capacity and preferred memory usage
+after purge limit.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithMemoryCapacity:(UInt64)memoryCapacity preferredMemoryCapacity:(UInt64)preferredMemoryCapacity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>memoryCapacity</Name>
+					<Abstract type="html">The total memory capacity of the cache in bytes.</Abstract>
+				</Parameter><Parameter>
+					<Name>preferredMemoryCapacity</Name>
+					<Abstract type="html">The preferred memory usage after purge in bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new AutoPurgingImageCache instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithMemoryCapacity:preferredMemoryCapacity:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/addImage:forRequest:withAdditionalIdentifier:</TokenIdentifier>
+			<Abstract type="html">Adds the image to the cache using an identifier created from the request and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.m</DeclaredIn>
+			
+			<Declaration>- (void)addImage:(UIImage *)image forRequest:(NSURLRequest *)request withAdditionalIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to cache.</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The unique URL request identifing the image asset.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The additional identifier to apply to the URL request to identify the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addImage:forRequest:withAdditionalIdentifier:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/removeImageforRequest:withAdditionalIdentifier:</TokenIdentifier>
+			<Abstract type="html">Removes the image from the cache using an identifier created from the request and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeImageforRequest:(NSURLRequest *)request withAdditionalIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The unique URL request identifing the image asset.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The additional identifier to apply to the URL request to identify the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A BOOL indicating whether or not all images were removed from the cache.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeImageforRequest:withAdditionalIdentifier:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFAutoPurgingImageCache/imageforRequest:withAdditionalIdentifier:</TokenIdentifier>
+			<Abstract type="html">Returns the image from the cache associated with an identifier created from the request and additional identifier.</Abstract>
+			<DeclaredIn>AFAutoPurgingImageCache.m</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageforRequest:(NSURLRequest *)request withAdditionalIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The unique URL request identifing the image asset.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The additional identifier to apply to the URL request to identify the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An image for the matching request and identifier, or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageforRequest:withAdditionalIdentifier:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

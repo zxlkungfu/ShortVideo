@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Request.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Request</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/requestWithURL:parameters:andSuccessBlock:andFailureBlock:andStatus:</TokenIdentifier>
+			<Abstract type="html">通用请求接口</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)requestWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBlock:(FailureBlock)failureBlock andStatus:(NSString *)status</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">接口地址</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">请求的拼接的参数</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">成功的回调</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">失败的回调</Abstract>
+				</Parameter><Parameter>
+					<Name>status</Name>
+					<Abstract type="html">网络请求状态字符串</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestWithURL:parameters:andSuccessBlock:andFailureBlock:andStatus:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/loginWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">登录</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)loginWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">login.php</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名&amp;amp;password=密码</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loginWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/registerWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">注册</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">register.php</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username= &amp;amp;password=</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/forgetPWDWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">忘记密码</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)forgetPWDWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">forgetPassword.php</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名, verify=验证信息</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/forgetPWDWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/listVideoWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">所有视频</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)listVideoWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">listVideo</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">nil or where = 用户名或视频名</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listVideoWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/listFriendWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">所有好友和粉丝</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)listFriendWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">listFriendAndFans</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listFriendWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/repairPasswordWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">修改密码</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)repairPasswordWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">repairPassword</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">password=新密码&amp;amp;verify=验证信息</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/repairPasswordWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/uploadFileWithURL:parameters:andSuccessBlock:andFailureBolck:andStatus:andMimeType:andData:andExtension:</TokenIdentifier>
+			<Abstract type="html">上传视频或图片，返回服务器上相应资源的地址</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)uploadFileWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock andStatus:(NSString *)status andMimeType:(NSString *)mime andData:(NSData *)data andExtension:(NSString *)ext</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">uploadFile</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>status</Name>
+					<Abstract type="html">status description</Abstract>
+				</Parameter><Parameter>
+					<Name>mime</Name>
+					<Abstract type="html">文件类型</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">文件的二进制数据</Abstract>
+				</Parameter><Parameter>
+					<Name>ext</Name>
+					<Abstract type="html">文件的扩展名</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/uploadFileWithURL:parameters:andSuccessBlock:andFailureBolck:andStatus:andMimeType:andData:andExtension:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/uploadHeaderImageWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">上传头像</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)uploadHeaderImageWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">uploadHeaderImage</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名&amp;amp;headerURL=</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/uploadHeaderImageWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/uploadVideoWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">上传视频</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)uploadVideoWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">uploadVieo</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户&amp;amp;title=标题&amp;amp;duration=时长&amp;amp;date=日期&amp;amp;url=视频网址&amp;amp;imgURL=截图网址</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">successBlock description</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">failureBlock description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/uploadVideoWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/playAttentionWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">关注某个用户</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)playAttentionWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">playAttention</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名&amp;amp;friend=被关注对象</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playAttentionWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/cancelAttentionWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">取消关注</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)cancelAttentionWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">cancelAttention</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">param username=用户名&amp;amp;friend=取消关注对象</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelAttentionWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/getInfoWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">获取用户详细信息</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)getInfoWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">getInfo</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getInfoWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/isAttentionWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">是否关注某个用户</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)isAttentionWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">isAttention</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名&amp;amp;currentName=某个用户</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isAttentionWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/setVerifyWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">设置验证信息</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)setVerifyWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">setVerify</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=用户名</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setVerifyWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/getCommentWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">获取评论信息</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)getCommentWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">getComment</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">url=视频网址</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getCommentWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/commentWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">发表评论</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)commentWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">comment</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">username=评论者&amp;amp;url=视频网址&amp;amp;date=评论时间&amp;amp;content=评论内容</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/commentWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Request/askQuestionWithURL:parameters:andSuccessBlock:andFailureBolck:</TokenIdentifier>
+			<Abstract type="html">问答机器人</Abstract>
+			<DeclaredIn>Request.h</DeclaredIn>
+			
+			<Declaration>+ (void)askQuestionWithURL:(NSString *)url parameters:(NSDictionary *)param andSuccessBlock:(SuccessBlock)successBlock andFailureBolck:(FailureBlock)failureBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">聚合数据上的地址</Abstract>
+				</Parameter><Parameter>
+					<Name>param</Name>
+					<Abstract type="html">Info=问题&amp;amp;key= 聚合的AppKey</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter><Parameter>
+					<Name>failureBlock</Name>
+					<Abstract type="html">None</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/askQuestionWithURL:parameters:andSuccessBlock:andFailureBolck:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

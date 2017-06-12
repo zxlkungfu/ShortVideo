@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UserModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UserModel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UserModel/keyMapper</TokenIdentifier>
+			<Abstract type="html">Overwrite in your models if your property names don&apos;t match your JSON key names.
+Lookup JSONKeyMapper docs for more details.</Abstract>
+			<DeclaredIn>UserModel.m</DeclaredIn>
+			
+			<Declaration>+ (JSONKeyMapper *)keyMapper</Declaration>
+			
+			
+			<Anchor>//api/name/keyMapper</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

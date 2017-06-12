@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/Optional.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/Optional</TokenIdentifier>
+			<Abstract type="html">Protocol for defining optional properties in a JSON Model class. Use like below to define
+model properties that are not required to have values in the JSON input:</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

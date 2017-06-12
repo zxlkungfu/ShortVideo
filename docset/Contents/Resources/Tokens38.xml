@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshFooter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshFooter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MJRefreshFooter/footerWithRefreshingBlock:</TokenIdentifier>
+			<Abstract type="html">创建footer</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)footerWithRefreshingBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock</Declaration>
+			
+			
+			<Anchor>//api/name/footerWithRefreshingBlock:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MJRefreshFooter/footerWithRefreshingTarget:refreshingAction:</TokenIdentifier>
+			<Abstract type="html">创建footer</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)footerWithRefreshingTarget:(id)target refreshingAction:(SEL)action</Declaration>
+			
+			
+			<Anchor>//api/name/footerWithRefreshingTarget:refreshingAction:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/endRefreshingWithNoMoreData</TokenIdentifier>
+			<Abstract type="html">提示没有更多的数据</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>- (void)endRefreshingWithNoMoreData</Declaration>
+			
+			
+			<Anchor>//api/name/endRefreshingWithNoMoreData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/resetNoMoreData</TokenIdentifier>
+			<Abstract type="html">重置没有更多的数据（消除没有更多数据的状态）</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>- (void)resetNoMoreData</Declaration>
+			
+			
+			<Anchor>//api/name/resetNoMoreData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/setIgnoredScrollViewContentInsetBottom:</TokenIdentifier>
+			<Abstract type="html">忽略多少scrollView的contentInset的bottom</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat ignoredScrollViewContentInsetBottom</Declaration>
+			
+			
+			<Anchor>//api/name/ignoredScrollViewContentInsetBottom</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/ignoredScrollViewContentInsetBottom</TokenIdentifier>
+			<Abstract type="html">忽略多少scrollView的contentInset的bottom</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat ignoredScrollViewContentInsetBottom</Declaration>
+			
+			
+			<Anchor>//api/name/ignoredScrollViewContentInsetBottom</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshFooter/ignoredScrollViewContentInsetBottom</TokenIdentifier>
+			<Abstract type="html">忽略多少scrollView的contentInset的bottom</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat ignoredScrollViewContentInsetBottom</Declaration>
+			
+			
+			<Anchor>//api/name/ignoredScrollViewContentInsetBottom</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/setAutomaticallyHidden:</TokenIdentifier>
+			<Abstract type="html">自动根据有无数据来显示和隐藏（有数据就显示，没有数据隐藏。默认是NO）</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isAutomaticallyHidden) BOOL automaticallyHidden</Declaration>
+			
+			
+			<Anchor>//api/name/automaticallyHidden</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/isAutomaticallyHidden</TokenIdentifier>
+			<Abstract type="html">自动根据有无数据来显示和隐藏（有数据就显示，没有数据隐藏。默认是NO）</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isAutomaticallyHidden) BOOL automaticallyHidden</Declaration>
+			
+			
+			<Anchor>//api/name/automaticallyHidden</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshFooter/automaticallyHidden</TokenIdentifier>
+			<Abstract type="html">自动根据有无数据来显示和隐藏（有数据就显示，没有数据隐藏。默认是NO）</Abstract>
+			<DeclaredIn>MJRefreshFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isAutomaticallyHidden) BOOL automaticallyHidden</Declaration>
+			
+			
+			<Anchor>//api/name/automaticallyHidden</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshFooter/prepare</TokenIdentifier>
+			<Abstract type="html">初始化</Abstract>
+			<DeclaredIn>MJRefreshFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)prepare</Declaration>
+			
+			
+			<Anchor>//api/name/prepare</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

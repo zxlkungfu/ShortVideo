@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JSONModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JSONModel</TokenIdentifier>
+			<Abstract type="html">The JSONModel is an abstract model class, you should not instantiate it directly,
+as it does not have any properties, and therefore cannot serve as a data model.
+Instead you should subclass it, and define the properties you want your data model
+to have as properties of your own class.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/initWithString:error:</TokenIdentifier>
+			<Abstract type="html">Create a new model instance and initialize it with the JSON from a text parameter. The method assumes UTF8 encoded input text.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/JSONModel/initWithString:usingEncoding:error:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (instancetype)initWithString:(NSString *)string error:(JSONModelError **)err</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">JSON text data</Abstract>
+				</Parameter><Parameter>
+					<Name>err</Name>
+					<Abstract type="html">an initialization error or nil</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithString:error:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/initWithString:usingEncoding:error:</TokenIdentifier>
+			<Abstract type="html">Create a new model instance and initialize it with the JSON from a text parameter using the given encoding.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithString:(NSString *)string usingEncoding:(NSStringEncoding)encoding error:(JSONModelError **)err</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">JSON text data</Abstract>
+				</Parameter><Parameter>
+					<Name>encoding</Name>
+					<Abstract type="html">the text encoding to use when parsing the string (see NSStringEncoding)</Abstract>
+				</Parameter><Parameter>
+					<Name>err</Name>
+					<Abstract type="html">an initialization error or nil</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithString:usingEncoding:error:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/toJSONString</TokenIdentifier>
+			<Abstract type="html">Export the whole object to a JSON data text string</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)toJSONString</Declaration>
+			
+			<ReturnValue><Abstract type="html">JSON text describing the data model</Abstract></ReturnValue>
+			<Anchor>//api/name/toJSONString</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/toJSONData</TokenIdentifier>
+			<Abstract type="html">Export the whole object to a JSON data text string</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)toJSONData</Declaration>
+			
+			<ReturnValue><Abstract type="html">JSON text data describing the data model</Abstract></ReturnValue>
+			<Anchor>//api/name/toJSONData</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/toJSONStringWithKeys:</TokenIdentifier>
+			<Abstract type="html">Export the specified properties of the object to a JSON data text string</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)toJSONStringWithKeys:(NSArray *)propertyNames</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyNames</Name>
+					<Abstract type="html">the properties to export; if nil, all properties exported</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">JSON text describing the data model</Abstract></ReturnValue>
+			<Anchor>//api/name/toJSONStringWithKeys:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/toJSONDataWithKeys:</TokenIdentifier>
+			<Abstract type="html">Export the specified properties of the object to a JSON data text string</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)toJSONDataWithKeys:(NSArray *)propertyNames</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyNames</Name>
+					<Abstract type="html">the properties to export; if nil, all properties exported</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">JSON text data describing the data model</Abstract></ReturnValue>
+			<Anchor>//api/name/toJSONDataWithKeys:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModel/arrayOfModelsFromDictionaries:error:</TokenIdentifier>
+			<Abstract type="html">If you have a list of dictionaries in a JSON feed, you can use this method to create an NSArray
+of model objects. Handy when importing JSON data lists.
+This method will loop over the input list and initialize a data model for every dictionary in the list.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/JSONModel/arrayOfDictionariesFromModels:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (NSMutableArray *)arrayOfModelsFromDictionaries:(NSArray *)array error:(NSError **)err</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">list of dictionaries to be imported as models</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">list of initialized data model objects</Abstract></ReturnValue>
+			<Anchor>//api/name/arrayOfModelsFromDictionaries:error:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModel/arrayOfDictionariesFromModels:</TokenIdentifier>
+			<Abstract type="html">If you have an NSArray of data model objects, this method takes it in and outputs a list of the
+matching dictionaries. This method does the opposite of arrayOfObjectsFromDictionaries:</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>+ (NSMutableArray *)arrayOfDictionariesFromModels:(NSArray *)array</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">list of JSONModel objects</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a list of NSDictionary objects</Abstract></ReturnValue>
+			<Anchor>//api/name/arrayOfDictionariesFromModels:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/validate:</TokenIdentifier>
+			<Abstract type="html">Overwrite the validate method in your own models if you need to perform some custom validation over the model data.
+This method gets called at the very end of the JSONModel initializer, thus the model is in the state that you would
+get it back when initialized. Check the values of any property that needs to be validated and if any invalid values
+are encountered return NO and set the error parameter to an NSError object. If the model is valid return YES.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)validate:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">a pointer to an NSError object, to pass back an error if needed</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a BOOL result, showing whether the model data validates or not. You can use the convenience method
+[JSONModelError errorModelIsInvalid] to set the NSError param if the data fails your custom validation</Abstract></ReturnValue>
+			<Anchor>//api/name/validate:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModel/keyMapper</TokenIdentifier>
+			<Abstract type="html">Overwrite in your models if your property names don&apos;t match your JSON key names.
+Lookup JSONKeyMapper docs for more details.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>+ (JSONKeyMapper *)keyMapper</Declaration>
+			
+			
+			<Anchor>//api/name/keyMapper</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModel/propertyIsOptional:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the property with the given name is Optional.
+To have a model with all of its properties being Optional just return YES.
+This method returns by default NO, since the default behaviour is to have all properties required.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)propertyIsOptional:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">the name of the property</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a BOOL result indicating whether the property is optional</Abstract></ReturnValue>
+			<Anchor>//api/name/propertyIsOptional:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModel/propertyIsIgnored:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the property with the given name is Ignored.
+To have a model with all of its properties being Ignored just return YES.
+This method returns by default NO, since the default behaviour is to have all properties required.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)propertyIsIgnored:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">the name of the property</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a BOOL result indicating whether the property is ignored</Abstract></ReturnValue>
+			<Anchor>//api/name/propertyIsIgnored:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModel/classForCollectionProperty:</TokenIdentifier>
+			<Abstract type="html">Indicates the class used for the elements of a collection property.
+Rather than using:
+@property (strong) NSArray &lt;MyType&gt; *things;
+You can implement classForCollectionProperty: and keep your property
+defined like:
+@property (strong) NSArray *things;</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>+ (Class)classForCollectionProperty:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">the name of the property</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Class the class used to deserialize the elements of the collection</Abstract></ReturnValue>
+			<Anchor>//api/name/classForCollectionProperty:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/mergeFromDictionary:useKeyMapping:error:</TokenIdentifier>
+			<Abstract type="html">Merges values from the given dictionary into the model instance.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)mergeFromDictionary:(NSDictionary *)dict useKeyMapping:(BOOL)useKeyMapping error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">dictionary with values</Abstract>
+				</Parameter><Parameter>
+					<Name>useKeyMapping</Name>
+					<Abstract type="html">if YES the method will use the model&apos;s key mapper and the global key mapper, if NO
+it&apos;ll just try to match the dictionary keys to the model&apos;s properties</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/mergeFromDictionary:useKeyMapping:error:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/initWithData:error:</TokenIdentifier>
+			<Abstract type="html">All JSONModel classes should implement initWithData:error:</Abstract>
+			<DeclaredIn>JSONModel.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithData:(NSData *)data error:(NSError *__autoreleasing *)err</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">representing a JSON response (usually fetched from web), to be imported in the model.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">an error or NULL</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithData:error:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/initWithDictionary:error:</TokenIdentifier>
+			<Abstract type="html">All JSONModel classes should implement initWithDictionary:</Abstract>
+			<DeclaredIn>JSONModel.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict error:(NSError **)err</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">a dictionary holding JSON objects, to be imported in the model.</Abstract>
+				</Parameter><Parameter>
+					<Name>err</Name>
+					<Abstract type="html">an error or NULL</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDictionary:error:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/toDictionary</TokenIdentifier>
+			<Abstract type="html">All JSONModel classes should be able to export themselves as a dictionary of
+JSON compliant objects.</Abstract>
+			<DeclaredIn>JSONModel.m</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)toDictionary</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSDictionary dictionary of JSON compliant objects</Abstract></ReturnValue>
+			<Anchor>//api/name/toDictionary</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModel/toDictionaryWithKeys:</TokenIdentifier>
+			<Abstract type="html">Export a model class to a dictionary, including only given properties</Abstract>
+			<DeclaredIn>JSONModel.m</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)toDictionaryWithKeys:(NSArray *)propertyNames</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyNames</Name>
+					<Abstract type="html">the properties to export; if nil, all properties exported</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDictionary dictionary of JSON compliant objects</Abstract></ReturnValue>
+			<Anchor>//api/name/toDictionaryWithKeys:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

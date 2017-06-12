@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIScrollView+MJRefresh.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIScrollView(MJRefresh)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/setMj_header:</TokenIdentifier>
+			<Abstract type="html">下拉刷新控件</Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) MJRefreshHeader *mj_header</Declaration>
+			
+			
+			<Anchor>//api/name/mj_header</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/mj_header</TokenIdentifier>
+			<Abstract type="html">下拉刷新控件</Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) MJRefreshHeader *mj_header</Declaration>
+			
+			
+			<Anchor>//api/name/mj_header</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIScrollView/mj_header</TokenIdentifier>
+			<Abstract type="html">下拉刷新控件</Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) MJRefreshHeader *mj_header</Declaration>
+			
+			
+			<Anchor>//api/name/mj_header</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/setMj_footer:</TokenIdentifier>
+			<Abstract type="html">上拉刷新控件</Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) MJRefreshFooter *mj_footer</Declaration>
+			
+			
+			<Anchor>//api/name/mj_footer</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/mj_footer</TokenIdentifier>
+			<Abstract type="html">上拉刷新控件</Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) MJRefreshFooter *mj_footer</Declaration>
+			
+			
+			<Anchor>//api/name/mj_footer</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIScrollView/mj_footer</TokenIdentifier>
+			<Abstract type="html">上拉刷新控件</Abstract>
+			<DeclaredIn>UIScrollView+MJRefresh.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) MJRefreshFooter *mj_footer</Declaration>
+			
+			
+			<Anchor>//api/name/mj_footer</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

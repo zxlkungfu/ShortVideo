@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/kJSONModelErrorTypes.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/kJSONModelErrorTypes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kJSONModelErrorInvalidData</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>kJSONModelErrorInvalidData</Declaration>
+            
+            <DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kJSONModelErrorBadResponse</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>kJSONModelErrorBadResponse</Declaration>
+            
+            <DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kJSONModelErrorBadJSON</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>kJSONModelErrorBadJSON</Declaration>
+            
+            <DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kJSONModelErrorModelIsInvalid</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>kJSONModelErrorModelIsInvalid</Declaration>
+            
+            <DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kJSONModelErrorNilInput</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>kJSONModelErrorNilInput</Declaration>
+            
+            <DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

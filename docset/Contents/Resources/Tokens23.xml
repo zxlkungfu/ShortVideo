@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JSONHTTPClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JSONHTTPClient</TokenIdentifier>
+			<Abstract type="html">Default request content type</Abstract>
+			<DeclaredIn>JSONHTTPClient.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

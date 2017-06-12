@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/MJRefreshState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/MJRefreshState</TokenIdentifier>
+			<Abstract type="html">刷新控件的状态</Abstract>
+			<DeclaredIn>MJRefreshComponent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MJRefreshStateIdle</TokenIdentifier>
+            <Abstract type="html">普通闲置状态</Abstract>
+            <Declaration>MJRefreshStateIdle</Declaration>
+            
+            <DeclaredIn>MJRefreshComponent.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MJRefreshStatePulling</TokenIdentifier>
+            <Abstract type="html">松开就可以进行刷新的状态</Abstract>
+            <Declaration>MJRefreshStatePulling</Declaration>
+            
+            <DeclaredIn>MJRefreshComponent.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MJRefreshStateRefreshing</TokenIdentifier>
+            <Abstract type="html">正在刷新中的状态</Abstract>
+            <Declaration>MJRefreshStateRefreshing</Declaration>
+            
+            <DeclaredIn>MJRefreshComponent.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MJRefreshStateWillRefresh</TokenIdentifier>
+            <Abstract type="html">即将刷新的状态</Abstract>
+            <Declaration>MJRefreshStateWillRefresh</Declaration>
+            
+            <DeclaredIn>MJRefreshComponent.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MJRefreshStateNoMoreData</TokenIdentifier>
+            <Abstract type="html">所有数据加载完毕，没有更多的数据了</Abstract>
+            <Declaration>MJRefreshStateNoMoreData</Declaration>
+            
+            <DeclaredIn>MJRefreshComponent.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

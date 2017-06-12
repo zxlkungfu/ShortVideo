@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JSONModelClassProperty.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JSONModelClassProperty</TokenIdentifier>
+			<Abstract type="html">You do not need to instantiate this class yourself. This class is used internally by JSONModel
+to inspect the declared properties of your model class.</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the declared property (not the ivar name)</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/name</TokenIdentifier>
+			<Abstract type="html">The name of the declared property (not the ivar name)</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/name</TokenIdentifier>
+			<Abstract type="html">The name of the declared property (not the ivar name)</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setType:</TokenIdentifier>
+			<Abstract type="html">A property class type</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) Class type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/type</TokenIdentifier>
+			<Abstract type="html">A property class type</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) Class type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/type</TokenIdentifier>
+			<Abstract type="html">A property class type</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) Class type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setStructName:</TokenIdentifier>
+			<Abstract type="html">Struct name if a struct</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *structName</Declaration>
+			
+			
+			<Anchor>//api/name/structName</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/structName</TokenIdentifier>
+			<Abstract type="html">Struct name if a struct</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *structName</Declaration>
+			
+			
+			<Anchor>//api/name/structName</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/structName</TokenIdentifier>
+			<Abstract type="html">Struct name if a struct</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *structName</Declaration>
+			
+			
+			<Anchor>//api/name/structName</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setProtocol:</TokenIdentifier>
+			<Abstract type="html">The name of the protocol the property conforms to (or nil)</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/protocol</TokenIdentifier>
+			<Abstract type="html">The name of the protocol the property conforms to (or nil)</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/protocol</TokenIdentifier>
+			<Abstract type="html">The name of the protocol the property conforms to (or nil)</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setIsOptional:</TokenIdentifier>
+			<Abstract type="html">If YES, it can be missing in the input data, and the input would be still valid</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isOptional</Declaration>
+			
+			
+			<Anchor>//api/name/isOptional</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/isOptional</TokenIdentifier>
+			<Abstract type="html">If YES, it can be missing in the input data, and the input would be still valid</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isOptional</Declaration>
+			
+			
+			<Anchor>//api/name/isOptional</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/isOptional</TokenIdentifier>
+			<Abstract type="html">If YES, it can be missing in the input data, and the input would be still valid</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isOptional</Declaration>
+			
+			
+			<Anchor>//api/name/isOptional</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setIsStandardJSONType:</TokenIdentifier>
+			<Abstract type="html">If YES - don&apos;t call any transformers on this property&apos;s value</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isStandardJSONType</Declaration>
+			
+			
+			<Anchor>//api/name/isStandardJSONType</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/isStandardJSONType</TokenIdentifier>
+			<Abstract type="html">If YES - don&apos;t call any transformers on this property&apos;s value</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isStandardJSONType</Declaration>
+			
+			
+			<Anchor>//api/name/isStandardJSONType</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/isStandardJSONType</TokenIdentifier>
+			<Abstract type="html">If YES - don&apos;t call any transformers on this property&apos;s value</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isStandardJSONType</Declaration>
+			
+			
+			<Anchor>//api/name/isStandardJSONType</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setIsMutable:</TokenIdentifier>
+			<Abstract type="html">If YES - create a mutable object for the value of the property</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isMutable</Declaration>
+			
+			
+			<Anchor>//api/name/isMutable</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/isMutable</TokenIdentifier>
+			<Abstract type="html">If YES - create a mutable object for the value of the property</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isMutable</Declaration>
+			
+			
+			<Anchor>//api/name/isMutable</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/isMutable</TokenIdentifier>
+			<Abstract type="html">If YES - create a mutable object for the value of the property</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) BOOL isMutable</Declaration>
+			
+			
+			<Anchor>//api/name/isMutable</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setCustomGetter:</TokenIdentifier>
+			<Abstract type="html">a custom getter for this property, found in the owning model</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) SEL customGetter</Declaration>
+			
+			
+			<Anchor>//api/name/customGetter</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/customGetter</TokenIdentifier>
+			<Abstract type="html">a custom getter for this property, found in the owning model</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) SEL customGetter</Declaration>
+			
+			
+			<Anchor>//api/name/customGetter</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/customGetter</TokenIdentifier>
+			<Abstract type="html">a custom getter for this property, found in the owning model</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) SEL customGetter</Declaration>
+			
+			
+			<Anchor>//api/name/customGetter</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/setCustomSetters:</TokenIdentifier>
+			<Abstract type="html">custom setters for this property, found in the owning model</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *customSetters</Declaration>
+			
+			
+			<Anchor>//api/name/customSetters</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelClassProperty/customSetters</TokenIdentifier>
+			<Abstract type="html">custom setters for this property, found in the owning model</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *customSetters</Declaration>
+			
+			
+			<Anchor>//api/name/customSetters</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONModelClassProperty/customSetters</TokenIdentifier>
+			<Abstract type="html">custom setters for this property, found in the owning model</Abstract>
+			<DeclaredIn>JSONModelClassProperty.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *customSetters</Declaration>
+			
+			
+			<Anchor>//api/name/customSetters</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SVProgressHUDStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SVProgressHUDStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SVProgressHUDStyleLight</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SVProgressHUDStyleLight</Declaration>
+            
+            <DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SVProgressHUDStyleDark</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SVProgressHUDStyleDark</Declaration>
+            
+            <DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SVProgressHUDStyleCustom</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SVProgressHUDStyleCustom</Declaration>
+            
+            <DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

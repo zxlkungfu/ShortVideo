@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AFImageDownloader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AFImageDownloader</TokenIdentifier>
+			<Abstract type="html">The AFImageDownloader class is responsible for downloading images in parallel on a prioritized queue. Incoming downloads are added to the front or back of the queue depending on the download prioritization. Each downloaded image is cached in the underlying NSURLCache as well as the in-memory image cache. By default, any download request with a cached image equivalent in the image cache will automatically be served the cached image representation.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/setImageCache:</TokenIdentifier>
+			<Abstract type="html">The image cache used to store all downloaded images in. AFAutoPurgingImageCache by default.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) id&lt;AFImageRequestCache&gt; imageCache</Declaration>
+			
+			
+			<Anchor>//api/name/imageCache</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/imageCache</TokenIdentifier>
+			<Abstract type="html">The image cache used to store all downloaded images in. AFAutoPurgingImageCache by default.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) id&lt;AFImageRequestCache&gt; imageCache</Declaration>
+			
+			
+			<Anchor>//api/name/imageCache</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFImageDownloader/imageCache</TokenIdentifier>
+			<Abstract type="html">The image cache used to store all downloaded images in. AFAutoPurgingImageCache by default.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) id&lt;AFImageRequestCache&gt; imageCache</Declaration>
+			
+			
+			<Anchor>//api/name/imageCache</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/setSessionManager:</TokenIdentifier>
+			<Abstract type="html">The AFHTTPSessionManager used to download images. By default, this is configured with an AFImageResponseSerializer, and a shared NSURLCache for all image downloads.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AFHTTPSessionManager *sessionManager</Declaration>
+			
+			
+			<Anchor>//api/name/sessionManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/sessionManager</TokenIdentifier>
+			<Abstract type="html">The AFHTTPSessionManager used to download images. By default, this is configured with an AFImageResponseSerializer, and a shared NSURLCache for all image downloads.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AFHTTPSessionManager *sessionManager</Declaration>
+			
+			
+			<Anchor>//api/name/sessionManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFImageDownloader/sessionManager</TokenIdentifier>
+			<Abstract type="html">The AFHTTPSessionManager used to download images. By default, this is configured with an AFImageResponseSerializer, and a shared NSURLCache for all image downloads.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AFHTTPSessionManager *sessionManager</Declaration>
+			
+			
+			<Anchor>//api/name/sessionManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/setDownloadPrioritizaton:</TokenIdentifier>
+			<Abstract type="html">Defines the order prioritization of incoming download requests being inserted into the queue. AFImageDownloadPrioritizationFIFO by default.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AFImageDownloadPrioritization downloadPrioritizaton</Declaration>
+			
+			
+			<Anchor>//api/name/downloadPrioritizaton</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/downloadPrioritizaton</TokenIdentifier>
+			<Abstract type="html">Defines the order prioritization of incoming download requests being inserted into the queue. AFImageDownloadPrioritizationFIFO by default.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AFImageDownloadPrioritization downloadPrioritizaton</Declaration>
+			
+			
+			<Anchor>//api/name/downloadPrioritizaton</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFImageDownloader/downloadPrioritizaton</TokenIdentifier>
+			<Abstract type="html">Defines the order prioritization of incoming download requests being inserted into the queue. AFImageDownloadPrioritizationFIFO by default.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AFImageDownloadPrioritization downloadPrioritizaton</Declaration>
+			
+			
+			<Anchor>//api/name/downloadPrioritizaton</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AFImageDownloader/defaultInstance</TokenIdentifier>
+			<Abstract type="html">The shared default instance of AFImageDownloader initialized with default values.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultInstance</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInstance</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AFImageDownloader/defaultURLCache</TokenIdentifier>
+			<Abstract type="html">Creates a default NSURLCache with common usage parameter values.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>+ (NSURLCache *)defaultURLCache</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default NSURLCache instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultURLCache</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/init</TokenIdentifier>
+			<Abstract type="html">Default initializer</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of AFImageDownloader initialized with default values.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/initWithSessionManager:downloadPrioritization:maximumActiveDownloads:imageCache:</TokenIdentifier>
+			<Abstract type="html">Initializes the AFImageDownloader instance with the given session manager, download prioritization, maximum active download count and image cache.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithSessionManager:(AFHTTPSessionManager *)sessionManager downloadPrioritization:(AFImageDownloadPrioritization)downloadPrioritization maximumActiveDownloads:(NSInteger)maximumActiveDownloads imageCache:(nullable id&lt;AFImageRequestCache&gt;)imageCache</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sessionManager</Name>
+					<Abstract type="html">The session manager to use to download images.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadPrioritization</Name>
+					<Abstract type="html">The download prioritization of the download queue.</Abstract>
+				</Parameter><Parameter>
+					<Name>maximumActiveDownloads</Name>
+					<Abstract type="html">The maximum number of active downloads allowed at any given time. Recommend 4.</Abstract>
+				</Parameter><Parameter>
+					<Name>imageCache</Name>
+					<Abstract type="html">The image cache used to store all downloaded images in.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new AFImageDownloader instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSessionManager:downloadPrioritization:maximumActiveDownloads:imageCache:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/downloadImageForURLRequest:success:failure:</TokenIdentifier>
+			<Abstract type="html">Creates a data task using the sessionManager instance for the specified URL request.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>- (nullable AFImageDownloadReceipt *)downloadImageForURLRequest:(NSURLRequest *)request success:(nullable void ( ^ ) ( NSURLRequest *request , NSHTTPURLResponse *_Nullable response , UIImage *responseObject ))success failure:(nullable void ( ^ ) ( NSURLRequest *request , NSHTTPURLResponse *_Nullable response , NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">A block to be executed when the image data task finishes successfully. This block has no return value and takes three arguments: the request sent from the client, the response received from the server, and the image created from the response data of request. If the image was returned from cache, the response parameter will be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the image data task finishes unsuccessfully, or that finishes successfully. This block has no return value and takes three arguments: the request sent from the client, the response received from the server, and the error object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The image download receipt for the data task if available. nil if the image is stored in the cache.
+cache and the URL request cache policy allows the cache to be used.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadImageForURLRequest:success:failure:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/downloadImageForURLRequest:withReceiptID:success:failure:</TokenIdentifier>
+			<Abstract type="html">Creates a data task using the sessionManager instance for the specified URL request.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>- (nullable AFImageDownloadReceipt *)downloadImageForURLRequest:(NSURLRequest *)request withReceiptID:(NSUUID *)receiptID success:(nullable void ( ^ ) ( NSURLRequest *request , NSHTTPURLResponse *_Nullable response , UIImage *responseObject ))success failure:(nullable void ( ^ ) ( NSURLRequest *request , NSHTTPURLResponse *_Nullable response , NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request.</Abstract>
+				</Parameter><Parameter>
+					<Name>receiptID</Name>
+					<Abstract type="html">The identifier to use for the download receipt that will be created for this request. This must be a unique identifier that does not represent any other request.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">A block to be executed when the image data task finishes successfully. This block has no return value and takes three arguments: the request sent from the client, the response received from the server, and the image created from the response data of request. If the image was returned from cache, the response parameter will be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A block object to be executed when the image data task finishes unsuccessfully, or that finishes successfully. This block has no return value and takes three arguments: the request sent from the client, the response received from the server, and the error object describing the network or parsing error that occurred.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The image download receipt for the data task if available. nil if the image is stored in the cache.
+cache and the URL request cache policy allows the cache to be used.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadImageForURLRequest:withReceiptID:success:failure:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloader/cancelTaskForImageDownloadReceipt:</TokenIdentifier>
+			<Abstract type="html">Cancels the data task in the receipt by removing the corresponding success and failure blocks and cancelling the data task if necessary.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelTaskForImageDownloadReceipt:(AFImageDownloadReceipt *)imageDownloadReceipt</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>imageDownloadReceipt</Name>
+					<Abstract type="html">The image download receipt to cancel.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelTaskForImageDownloadReceipt:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

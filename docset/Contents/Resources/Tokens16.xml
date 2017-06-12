@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AFSecurityPolicy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AFSecurityPolicy</TokenIdentifier>
+			<Abstract type="html">AFSecurityPolicy evaluates server trust against pinned X.509 certificates and public keys over secure connections.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/setSSLPinningMode:</TokenIdentifier>
+			<Abstract type="html">The criteria by which server trust should be evaluated against the pinned SSL certificates. Defaults to AFSSLPinningModeNone.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic, assign) AFSSLPinningMode SSLPinningMode</Declaration>
+			
+			
+			<Anchor>//api/name/SSLPinningMode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/SSLPinningMode</TokenIdentifier>
+			<Abstract type="html">The criteria by which server trust should be evaluated against the pinned SSL certificates. Defaults to AFSSLPinningModeNone.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic, assign) AFSSLPinningMode SSLPinningMode</Declaration>
+			
+			
+			<Anchor>//api/name/SSLPinningMode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFSecurityPolicy/SSLPinningMode</TokenIdentifier>
+			<Abstract type="html">The criteria by which server trust should be evaluated against the pinned SSL certificates. Defaults to AFSSLPinningModeNone.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic, assign) AFSSLPinningMode SSLPinningMode</Declaration>
+			
+			
+			<Anchor>//api/name/SSLPinningMode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/setPinnedCertificates:</TokenIdentifier>
+			<Abstract type="html">The certificates used to evaluate server trust according to the SSL pinning mode.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSSet&lt;NSData*&gt; *pinnedCertificates</Declaration>
+			
+			
+			<Anchor>//api/name/pinnedCertificates</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/pinnedCertificates</TokenIdentifier>
+			<Abstract type="html">The certificates used to evaluate server trust according to the SSL pinning mode.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSSet&lt;NSData*&gt; *pinnedCertificates</Declaration>
+			
+			
+			<Anchor>//api/name/pinnedCertificates</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFSecurityPolicy/pinnedCertificates</TokenIdentifier>
+			<Abstract type="html">The certificates used to evaluate server trust according to the SSL pinning mode.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSSet&lt;NSData*&gt; *pinnedCertificates</Declaration>
+			
+			
+			<Anchor>//api/name/pinnedCertificates</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/setAllowInvalidCertificates:</TokenIdentifier>
+			<Abstract type="html">Whether or not to trust servers with an invalid or expired SSL certificates. Defaults to NO.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowInvalidCertificates</Declaration>
+			
+			
+			<Anchor>//api/name/allowInvalidCertificates</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/allowInvalidCertificates</TokenIdentifier>
+			<Abstract type="html">Whether or not to trust servers with an invalid or expired SSL certificates. Defaults to NO.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowInvalidCertificates</Declaration>
+			
+			
+			<Anchor>//api/name/allowInvalidCertificates</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFSecurityPolicy/allowInvalidCertificates</TokenIdentifier>
+			<Abstract type="html">Whether or not to trust servers with an invalid or expired SSL certificates. Defaults to NO.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowInvalidCertificates</Declaration>
+			
+			
+			<Anchor>//api/name/allowInvalidCertificates</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/setValidatesDomainName:</TokenIdentifier>
+			<Abstract type="html">Whether or not to validate the domain name in the certificate&apos;s CN field. Defaults to YES.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL validatesDomainName</Declaration>
+			
+			
+			<Anchor>//api/name/validatesDomainName</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/validatesDomainName</TokenIdentifier>
+			<Abstract type="html">Whether or not to validate the domain name in the certificate&apos;s CN field. Defaults to YES.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL validatesDomainName</Declaration>
+			
+			
+			<Anchor>//api/name/validatesDomainName</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFSecurityPolicy/validatesDomainName</TokenIdentifier>
+			<Abstract type="html">Whether or not to validate the domain name in the certificate&apos;s CN field. Defaults to YES.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL validatesDomainName</Declaration>
+			
+			
+			<Anchor>//api/name/validatesDomainName</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AFSecurityPolicy/certificatesInBundle:</TokenIdentifier>
+			<Abstract type="html">Returns any certificates included in the bundle. If you are using AFNetworking as an embedded framework, you must use this method to find the certificates you have included in your app bundle, and use them when creating your security policy by calling policyWithPinningMode:withPinnedCertificates.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>+ (NSSet&lt;NSData*&gt; *)certificatesInBundle:(NSBundle *)bundle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The certificates included in the given bundle.</Abstract></ReturnValue>
+			<Anchor>//api/name/certificatesInBundle:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AFSecurityPolicy/defaultPolicy</TokenIdentifier>
+			<Abstract type="html">Returns the shared default security policy, which does not allow invalid certificates, validates domain name, and does not validate against pinned certificates or public keys.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultPolicy</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default security policy.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultPolicy</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AFSecurityPolicy/policyWithPinningMode:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a security policy with the specified pinning mode.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pinningMode</Name>
+					<Abstract type="html">The SSL pinning mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new security policy.</Abstract></ReturnValue>
+			<Anchor>//api/name/policyWithPinningMode:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AFSecurityPolicy/policyWithPinningMode:withPinnedCertificates:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a security policy with the specified pinning mode.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode withPinnedCertificates:(NSSet&lt;NSData*&gt; *)pinnedCertificates</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pinningMode</Name>
+					<Abstract type="html">The SSL pinning mode.</Abstract>
+				</Parameter><Parameter>
+					<Name>pinnedCertificates</Name>
+					<Abstract type="html">The certificates to pin against.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new security policy.</Abstract></ReturnValue>
+			<Anchor>//api/name/policyWithPinningMode:withPinnedCertificates:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFSecurityPolicy/evaluateServerTrust:forDomain:</TokenIdentifier>
+			<Abstract type="html">Whether or not the specified server trust should be accepted, based on the security policy.</Abstract>
+			<DeclaredIn>AFSecurityPolicy.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)evaluateServerTrust:(SecTrustRef)serverTrust forDomain:(nullable NSString *)domain</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>serverTrust</Name>
+					<Abstract type="html">The X.509 certificate trust of the server.</Abstract>
+				</Parameter><Parameter>
+					<Name>domain</Name>
+					<Abstract type="html">The domain of serverTrust. If nil, the domain will not be validated.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Whether or not to trust the server.</Abstract></ReturnValue>
+			<Anchor>//api/name/evaluateServerTrust:forDomain:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

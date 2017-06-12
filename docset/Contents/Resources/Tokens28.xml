@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JSONValueTransformer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JSONValueTransformer</TokenIdentifier>
+			<Abstract type="html">You don&apos;t need to call methods of this class manually.</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONValueTransformer/classByResolvingClusterClasses:</TokenIdentifier>
+			<Abstract type="html">This method returns the umbrella class for any standard class cluster members.
+For example returns NSString when given as input NSString, NSMutableString, CFString and CFConstantString
+The method currently looksup a pre-defined list.</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>+ (Class)classByResolvingClusterClasses:(Class)sourceClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sourceClass</Name>
+					<Abstract type="html">the class to get the umbrella class for</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Class</Abstract></ReturnValue>
+			<Anchor>//api/name/classByResolvingClusterClasses:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSMutableStringFromNSString:</TokenIdentifier>
+			<Abstract type="html">Transforms a string value to a mutable string value</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableString *)NSMutableStringFromNSString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">incoming string</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">mutable string</Abstract></ReturnValue>
+			<Anchor>//api/name/NSMutableStringFromNSString:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSMutableArrayFromNSArray:</TokenIdentifier>
+			<Abstract type="html">Transforms an array to a mutable array</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableArray *)NSMutableArrayFromNSArray:(NSArray *)array</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">incoming array</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">mutable array</Abstract></ReturnValue>
+			<Anchor>//api/name/NSMutableArrayFromNSArray:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSMutableDictionaryFromNSDictionary:</TokenIdentifier>
+			<Abstract type="html">Transforms a dictionary to a mutable dictionary</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableDictionary *)NSMutableDictionaryFromNSDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">incoming dictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">mutable dictionary</Abstract></ReturnValue>
+			<Anchor>//api/name/NSMutableDictionaryFromNSDictionary:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSSetFromNSArray:</TokenIdentifier>
+			<Abstract type="html">Transforms an array to a set</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSSet *)NSSetFromNSArray:(NSArray *)array</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">incoming array</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">set with the array&apos;s elements</Abstract></ReturnValue>
+			<Anchor>//api/name/NSSetFromNSArray:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSMutableSetFromNSArray:</TokenIdentifier>
+			<Abstract type="html">Transforms an array to a mutable set</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableSet *)NSMutableSetFromNSArray:(NSArray *)array</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">incoming array</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">mutable set with the array&apos;s elements</Abstract></ReturnValue>
+			<Anchor>//api/name/NSMutableSetFromNSArray:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/JSONObjectFromNSSet:</TokenIdentifier>
+			<Abstract type="html">Transforms a set to an array</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)JSONObjectFromNSSet:(NSSet *)set</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>set</Name>
+					<Abstract type="html">incoming set</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an array with the set&apos;s elements</Abstract></ReturnValue>
+			<Anchor>//api/name/JSONObjectFromNSSet:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/JSONObjectFromNSMutableSet:</TokenIdentifier>
+			<Abstract type="html">Transforms a mutable set to an array</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)JSONObjectFromNSMutableSet:(NSMutableSet *)set</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>set</Name>
+					<Abstract type="html">incoming mutable set</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an array with the set&apos;s elements</Abstract></ReturnValue>
+			<Anchor>//api/name/JSONObjectFromNSMutableSet:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/BOOLFromNSNumber:</TokenIdentifier>
+			<Abstract type="html">Transforms a number object to a bool number object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)BOOLFromNSNumber:(NSNumber *)number</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">the number to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting number</Abstract></ReturnValue>
+			<Anchor>//api/name/BOOLFromNSNumber:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/BOOLFromNSString:</TokenIdentifier>
+			<Abstract type="html">Transforms a number object to a bool number object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)BOOLFromNSString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">the string value to convert, &quot;0&quot; converts to NO, everything else to YES</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting number</Abstract></ReturnValue>
+			<Anchor>//api/name/BOOLFromNSString:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/JSONObjectFromBOOL:</TokenIdentifier>
+			<Abstract type="html">Transforms a BOOL value to a bool number object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)JSONObjectFromBOOL:(NSNumber *)number</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">an NSNumber value coming from the model</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the result number</Abstract></ReturnValue>
+			<Anchor>//api/name/JSONObjectFromBOOL:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSNumberFromNSString:</TokenIdentifier>
+			<Abstract type="html">Transforms a string object to a number object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)NSNumberFromNSString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">the string to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting number</Abstract></ReturnValue>
+			<Anchor>//api/name/NSNumberFromNSString:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSStringFromNSNumber:</TokenIdentifier>
+			<Abstract type="html">Transforms a number object to a string object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)NSStringFromNSNumber:(NSNumber *)number</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">the number to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting string</Abstract></ReturnValue>
+			<Anchor>//api/name/NSStringFromNSNumber:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSDecimalNumberFromNSString:</TokenIdentifier>
+			<Abstract type="html">Transforms a string object to a nsdecimalnumber object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)NSDecimalNumberFromNSString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">the string to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting number</Abstract></ReturnValue>
+			<Anchor>//api/name/NSDecimalNumberFromNSString:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSStringFromNSDecimalNumber:</TokenIdentifier>
+			<Abstract type="html">Transforms a nsdecimalnumber object to a string object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)NSStringFromNSDecimalNumber:(NSDecimalNumber *)number</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">the number to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting string</Abstract></ReturnValue>
+			<Anchor>//api/name/NSStringFromNSDecimalNumber:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSURLFromNSString:</TokenIdentifier>
+			<Abstract type="html">Transforms a string object to an NSURL object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSURL *)NSURLFromNSString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">the string to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting url object</Abstract></ReturnValue>
+			<Anchor>//api/name/NSURLFromNSString:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/JSONObjectFromNSURL:</TokenIdentifier>
+			<Abstract type="html">Transforms an NSURL object to a string</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)JSONObjectFromNSURL:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">the url object to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting string</Abstract></ReturnValue>
+			<Anchor>//api/name/JSONObjectFromNSURL:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSTimeZoneFromNSString:</TokenIdentifier>
+			<Abstract type="html">Transforms a string object to an NSTimeZone object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSTimeZone *)NSTimeZoneFromNSString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">the string to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting NSTimeZone object</Abstract></ReturnValue>
+			<Anchor>//api/name/NSTimeZoneFromNSString:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/JSONObjectFromNSTimeZone:</TokenIdentifier>
+			<Abstract type="html">Transforms an NSTimeZone object to a string</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)JSONObjectFromNSTimeZone:(NSTimeZone *)timeZone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>timeZone</Name>
+					<Abstract type="html">the time zone object to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting string</Abstract></ReturnValue>
+			<Anchor>//api/name/JSONObjectFromNSTimeZone:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONValueTransformer/NSDateFromNSNumber:</TokenIdentifier>
+			<Abstract type="html">Transforms a number to an NSDate object</Abstract>
+			<DeclaredIn>JSONValueTransformer.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)NSDateFromNSNumber:(NSNumber *)number</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">the number to convert</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the resulting date</Abstract></ReturnValue>
+			<Anchor>//api/name/NSDateFromNSNumber:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

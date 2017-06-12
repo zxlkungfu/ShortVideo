@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AFImageDownloadReceipt.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AFImageDownloadReceipt</TokenIdentifier>
+			<Abstract type="html">The AFImageDownloadReceipt is an object vended by the AFImageDownloader when starting a data task. It can be used to cancel active tasks running on the AFImageDownloader session. As a general rule, image data tasks should be cancelled using the AFImageDownloadReceipt instead of calling cancel directly on the task itself. The AFImageDownloader is optimized to handle duplicate task scenarios as well as pending versus active downloads.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloadReceipt/setTask:</TokenIdentifier>
+			<Abstract type="html">The data task created by the AFImageDownloader.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSURLSessionDataTask *task</Declaration>
+			
+			
+			<Anchor>//api/name/task</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloadReceipt/task</TokenIdentifier>
+			<Abstract type="html">The data task created by the AFImageDownloader.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSURLSessionDataTask *task</Declaration>
+			
+			
+			<Anchor>//api/name/task</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFImageDownloadReceipt/task</TokenIdentifier>
+			<Abstract type="html">The data task created by the AFImageDownloader.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSURLSessionDataTask *task</Declaration>
+			
+			
+			<Anchor>//api/name/task</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloadReceipt/setReceiptID:</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the success and failure blocks when duplicate requests are made.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSUUID *receiptID</Declaration>
+			
+			
+			<Anchor>//api/name/receiptID</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AFImageDownloadReceipt/receiptID</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the success and failure blocks when duplicate requests are made.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSUUID *receiptID</Declaration>
+			
+			
+			<Anchor>//api/name/receiptID</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AFImageDownloadReceipt/receiptID</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the success and failure blocks when duplicate requests are made.</Abstract>
+			<DeclaredIn>AFImageDownloader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSUUID *receiptID</Declaration>
+			
+			
+			<Anchor>//api/name/receiptID</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

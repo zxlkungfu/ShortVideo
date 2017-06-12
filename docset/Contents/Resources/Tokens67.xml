@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AFNetworkActivityManagerState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AFNetworkActivityManagerState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AFNetworkActivityIndicatorManager.m</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AFNetworkActivityManagerStateNotActive</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AFNetworkActivityManagerStateNotActive</Declaration>
+            
+            <DeclaredIn>AFNetworkActivityIndicatorManager.m</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AFNetworkActivityManagerStateDelayingStart</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AFNetworkActivityManagerStateDelayingStart</Declaration>
+            
+            <DeclaredIn>AFNetworkActivityIndicatorManager.m</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AFNetworkActivityManagerStateActive</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AFNetworkActivityManagerStateActive</Declaration>
+            
+            <DeclaredIn>AFNetworkActivityIndicatorManager.m</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AFNetworkActivityManagerStateDelayingEnd</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AFNetworkActivityManagerStateDelayingEnd</Declaration>
+            
+            <DeclaredIn>AFNetworkActivityIndicatorManager.m</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

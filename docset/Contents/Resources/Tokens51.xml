@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+Custom.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(Custom)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/garnetColor</TokenIdentifier>
+			<Abstract type="html">枣红色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)garnetColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">UIColor OBJ</Abstract></ReturnValue>
+			<Anchor>//api/name/garnetColor</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/tradGreen</TokenIdentifier>
+			<Abstract type="html">传统绿</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)tradGreen</Declaration>
+			
+			<ReturnValue><Abstract type="html">UIColor obj</Abstract></ReturnValue>
+			<Anchor>//api/name/tradGreen</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/navyBlue</TokenIdentifier>
+			<Abstract type="html">海水蓝</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)navyBlue</Declaration>
+			
+			<ReturnValue><Abstract type="html">&lt;#return value description#&gt;</Abstract></ReturnValue>
+			<Anchor>//api/name/navyBlue</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithRed:green:blue:</TokenIdentifier>
+			<Abstract type="html">十进制三原色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithRed:(int)red green:(int)green blue:(int)blue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>red</Name>
+					<Abstract type="html">红色0-255</Abstract>
+				</Parameter><Parameter>
+					<Name>green</Name>
+					<Abstract type="html">绿色0-255</Abstract>
+				</Parameter><Parameter>
+					<Name>blue</Name>
+					<Abstract type="html">蓝色0-255</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">UIColor</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithRed:green:blue:</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/bkColor</TokenIdentifier>
+			<Abstract type="html">背景色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)bkColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">背景色</Abstract></ReturnValue>
+			<Anchor>//api/name/bkColor</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/separateColor</TokenIdentifier>
+			<Abstract type="html">分割线的颜色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)separateColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">UIColor</Abstract></ReturnValue>
+			<Anchor>//api/name/separateColor</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/navColor</TokenIdentifier>
+			<Abstract type="html">导航条颜色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)navColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">UIColor</Abstract></ReturnValue>
+			<Anchor>//api/name/navColor</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/tabColor</TokenIdentifier>
+			<Abstract type="html">标签颜色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)tabColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">UIColor</Abstract></ReturnValue>
+			<Anchor>//api/name/tabColor</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/tabSelectedColor</TokenIdentifier>
+			<Abstract type="html">标签栏选中的颜色</Abstract>
+			<DeclaredIn>UIColor+Custom.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)tabSelectedColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">UIColor</Abstract></ReturnValue>
+			<Anchor>//api/name/tabSelectedColor</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

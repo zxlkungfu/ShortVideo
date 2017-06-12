@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshHeader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshHeader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MJRefreshHeader/headerWithRefreshingBlock:</TokenIdentifier>
+			<Abstract type="html">创建header</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)headerWithRefreshingBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock</Declaration>
+			
+			
+			<Anchor>//api/name/headerWithRefreshingBlock:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MJRefreshHeader/headerWithRefreshingTarget:refreshingAction:</TokenIdentifier>
+			<Abstract type="html">创建header</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)headerWithRefreshingTarget:(id)target refreshingAction:(SEL)action</Declaration>
+			
+			
+			<Anchor>//api/name/headerWithRefreshingTarget:refreshingAction:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/setLastUpdatedTimeKey:</TokenIdentifier>
+			<Abstract type="html">这个key用来存储上一次下拉刷新成功的时间</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *lastUpdatedTimeKey</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdatedTimeKey</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/lastUpdatedTimeKey</TokenIdentifier>
+			<Abstract type="html">这个key用来存储上一次下拉刷新成功的时间</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *lastUpdatedTimeKey</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdatedTimeKey</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshHeader/lastUpdatedTimeKey</TokenIdentifier>
+			<Abstract type="html">这个key用来存储上一次下拉刷新成功的时间</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) NSString *lastUpdatedTimeKey</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdatedTimeKey</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/setLastUpdatedTime:</TokenIdentifier>
+			<Abstract type="html">上一次下拉刷新成功的时间</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readonly) NSDate *lastUpdatedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdatedTime</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/lastUpdatedTime</TokenIdentifier>
+			<Abstract type="html">上一次下拉刷新成功的时间</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readonly) NSDate *lastUpdatedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdatedTime</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshHeader/lastUpdatedTime</TokenIdentifier>
+			<Abstract type="html">上一次下拉刷新成功的时间</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readonly) NSDate *lastUpdatedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdatedTime</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/setIgnoredScrollViewContentInsetTop:</TokenIdentifier>
+			<Abstract type="html">忽略多少scrollView的contentInset的top</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat ignoredScrollViewContentInsetTop</Declaration>
+			
+			
+			<Anchor>//api/name/ignoredScrollViewContentInsetTop</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/ignoredScrollViewContentInsetTop</TokenIdentifier>
+			<Abstract type="html">忽略多少scrollView的contentInset的top</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat ignoredScrollViewContentInsetTop</Declaration>
+			
+			
+			<Anchor>//api/name/ignoredScrollViewContentInsetTop</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshHeader/ignoredScrollViewContentInsetTop</TokenIdentifier>
+			<Abstract type="html">忽略多少scrollView的contentInset的top</Abstract>
+			<DeclaredIn>MJRefreshHeader.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat ignoredScrollViewContentInsetTop</Declaration>
+			
+			
+			<Anchor>//api/name/ignoredScrollViewContentInsetTop</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/prepare</TokenIdentifier>
+			<Abstract type="html">初始化</Abstract>
+			<DeclaredIn>MJRefreshHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)prepare</Declaration>
+			
+			
+			<Anchor>//api/name/prepare</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/placeSubviews</TokenIdentifier>
+			<Abstract type="html">摆放子控件frame</Abstract>
+			<DeclaredIn>MJRefreshHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)placeSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/placeSubviews</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/scrollViewContentOffsetDidChange:</TokenIdentifier>
+			<Abstract type="html">当scrollView的contentOffset发生改变的时候调用</Abstract>
+			<DeclaredIn>MJRefreshHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViewContentOffsetDidChange:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/setState:</TokenIdentifier>
+			<Abstract type="html">刷新状态 一般交给子类内部实现</Abstract>
+			<DeclaredIn>MJRefreshHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)setState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setState:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshHeader/endRefreshing</TokenIdentifier>
+			<Abstract type="html">结束刷新状态</Abstract>
+			<DeclaredIn>MJRefreshHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)endRefreshing</Declaration>
+			
+			
+			<Anchor>//api/name/endRefreshing</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

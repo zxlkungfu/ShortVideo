@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JSONModelError.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JSONModelError</TokenIdentifier>
+			<Abstract type="html">Custom NSError subclass with shortcut methods for creating
+the common JSONModel errors</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorInvalidDataWithMessage:</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorInvalidData = 1</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorInvalidDataWithMessage:(NSString *)message</Declaration>
+			
+			
+			<Anchor>//api/name/errorInvalidDataWithMessage:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorInvalidDataWithMissingKeys:</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorInvalidData = 1</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorInvalidDataWithMissingKeys:(NSSet *)keys</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">a set of field names that were required, but not found in the input</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/errorInvalidDataWithMissingKeys:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorInvalidDataWithTypeMismatch:</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorInvalidData = 1</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorInvalidDataWithTypeMismatch:(NSString *)mismatchDescription</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mismatchDescription</Name>
+					<Abstract type="html">description of the type mismatch that was encountered.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/errorInvalidDataWithTypeMismatch:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorBadResponse</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorBadResponse = 2</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorBadResponse</Declaration>
+			
+			
+			<Anchor>//api/name/errorBadResponse</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorBadJSON</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorBadJSON = 3</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorBadJSON</Declaration>
+			
+			
+			<Anchor>//api/name/errorBadJSON</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorModelIsInvalid</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorModelIsInvalid = 4</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorModelIsInvalid</Declaration>
+			
+			
+			<Anchor>//api/name/errorModelIsInvalid</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONModelError/errorInputIsNil</TokenIdentifier>
+			<Abstract type="html">Creates a JSONModelError instance with code kJSONModelErrorNilInput = 5</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>+ (id)errorInputIsNil</Declaration>
+			
+			
+			<Anchor>//api/name/errorInputIsNil</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONModelError/errorByPrependingKeyPathComponent:</TokenIdentifier>
+			<Abstract type="html">Creates a new JSONModelError with the same values plus information about the key-path of the error.
+Properties in the new error object are the same as those from the receiver,
+except that a new key kJSONModelKeyPath is added to the userInfo dictionary.
+This key contains the component string parameter. If the key is already present
+then the new error object has the component string prepended to the existing value.</Abstract>
+			<DeclaredIn>JSONModelError.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)errorByPrependingKeyPathComponent:(NSString *)component</Declaration>
+			
+			
+			<Anchor>//api/name/errorByPrependingKeyPathComponent:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

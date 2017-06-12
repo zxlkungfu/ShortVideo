@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshBackGifFooter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshBackGifFooter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/setImages:duration:forState:</TokenIdentifier>
+			<Abstract type="html">设置state状态下的动画图片images 动画持续时间duration</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.h</DeclaredIn>
+			
+			<Declaration>- (void)setImages:(NSArray *)images duration:(NSTimeInterval)duration forState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setImages:duration:forState:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/prepare</TokenIdentifier>
+			<Abstract type="html">初始化</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)prepare</Declaration>
+			
+			
+			<Anchor>//api/name/prepare</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/setPullingPercent:</TokenIdentifier>
+			<Abstract type="html">拉拽的百分比(交给子类重写)</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)setPullingPercent:(CGFloat)pullingPercent</Declaration>
+			
+			
+			<Anchor>//api/name/setPullingPercent:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/placeSubviews</TokenIdentifier>
+			<Abstract type="html">摆放子控件frame</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)placeSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/placeSubviews</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/setState:</TokenIdentifier>
+			<Abstract type="html">刷新状态 一般交给子类内部实现</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)setState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setState:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/setStateImages:</TokenIdentifier>
+			<Abstract type="html">所有状态对应的动画图片</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateImages</Declaration>
+			
+			
+			<Anchor>//api/name/stateImages</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/stateImages</TokenIdentifier>
+			<Abstract type="html">所有状态对应的动画图片</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateImages</Declaration>
+			
+			
+			<Anchor>//api/name/stateImages</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshBackGifFooter/stateImages</TokenIdentifier>
+			<Abstract type="html">所有状态对应的动画图片</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateImages</Declaration>
+			
+			
+			<Anchor>//api/name/stateImages</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/setStateDurations:</TokenIdentifier>
+			<Abstract type="html">所有状态对应的动画时间</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateDurations</Declaration>
+			
+			
+			<Anchor>//api/name/stateDurations</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshBackGifFooter/stateDurations</TokenIdentifier>
+			<Abstract type="html">所有状态对应的动画时间</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateDurations</Declaration>
+			
+			
+			<Anchor>//api/name/stateDurations</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshBackGifFooter/stateDurations</TokenIdentifier>
+			<Abstract type="html">所有状态对应的动画时间</Abstract>
+			<DeclaredIn>MJRefreshBackGifFooter.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableDictionary *stateDurations</Declaration>
+			
+			
+			<Anchor>//api/name/stateDurations</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

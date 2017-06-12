@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/Ignore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/Ignore</TokenIdentifier>
+			<Abstract type="html">Protocol for defining properties in a JSON Model class that should not be considered at all
+neither while importing nor when exporting JSON.</Abstract>
+			<DeclaredIn>JSONModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

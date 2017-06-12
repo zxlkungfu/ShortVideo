@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JSONKeyMapper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JSONKeyMapper</TokenIdentifier>
+			<Abstract type="html">You won&apos;t need to create or store instances of this class yourself. If you want your model
+to have different property names than the JSON feed keys, look below on how to
+make your model use a key mapper.</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONKeyMapper/setModelToJSONKeyBlock:</TokenIdentifier>
+			<Abstract type="html">Block, which takes in a property name and converts it to the corresponding JSON key name</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) JSONModelKeyMapBlock modelToJSONKeyBlock</Declaration>
+			
+			
+			<Anchor>//api/name/modelToJSONKeyBlock</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONKeyMapper/modelToJSONKeyBlock</TokenIdentifier>
+			<Abstract type="html">Block, which takes in a property name and converts it to the corresponding JSON key name</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) JSONModelKeyMapBlock modelToJSONKeyBlock</Declaration>
+			
+			
+			<Anchor>//api/name/modelToJSONKeyBlock</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JSONKeyMapper/modelToJSONKeyBlock</TokenIdentifier>
+			<Abstract type="html">Block, which takes in a property name and converts it to the corresponding JSON key name</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) JSONModelKeyMapBlock modelToJSONKeyBlock</Declaration>
+			
+			
+			<Anchor>//api/name/modelToJSONKeyBlock</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONKeyMapper/convertValue:</TokenIdentifier>
+			<Abstract type="html">Combined converter method</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)convertValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">the source name</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">JSONKeyMapper instance</Abstract></ReturnValue>
+			<Anchor>//api/name/convertValue:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONKeyMapper/initWithModelToJSONBlock:</TokenIdentifier>
+			<Abstract type="html">Creates a JSONKeyMapper instance, based on the block you provide this initializer.
+The parameter takes in a JSONModelKeyMapBlock block:
+&lt;pre&gt;NSString (^JSONModelKeyMapBlock(NSString keyName)&lt;/pre&gt;
+The block takes in a string and returns the transformed (if at all) string.</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithModelToJSONBlock:(JSONModelKeyMapBlock)toJSON</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>toJSON</Name>
+					<Abstract type="html">transforms your model property name to a JSON key</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithModelToJSONBlock:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JSONKeyMapper/initWithModelToJSONDictionary:</TokenIdentifier>
+			<Abstract type="html">Creates a JSONKeyMapper instance, based on the mapping you provide.
+Use your JSONModel property names as keys, and the JSON key names as values.</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithModelToJSONDictionary:(NSDictionary *)toJSON</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>toJSON</Name>
+					<Abstract type="html">map dictionary, in the format: &lt;pre&gt;@{@&quot;myCamelCaseName&quot;:@&quot;crazyJSONname&quot;}&lt;/pre&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">JSONKeyMapper instance</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithModelToJSONDictionary:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONKeyMapper/mapperForSnakeCase</TokenIdentifier>
+			<Abstract type="html">Given a camelCase model property, this mapper finds JSON keys using the snake_case equivalent.</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)mapperForSnakeCase</Declaration>
+			
+			
+			<Anchor>//api/name/mapperForSnakeCase</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONKeyMapper/mapperForTitleCase</TokenIdentifier>
+			<Abstract type="html">Given a camelCase model property, this mapper finds JSON keys using the TitleCase equivalent.</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)mapperForTitleCase</Declaration>
+			
+			
+			<Anchor>//api/name/mapperForTitleCase</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JSONKeyMapper/baseMapper:withModelToJSONExceptions:</TokenIdentifier>
+			<Abstract type="html">Creates a JSONKeyMapper based on a built-in JSONKeyMapper, with specific exceptions.
+Use your JSONModel property names as keys, and the JSON key names as values.</Abstract>
+			<DeclaredIn>JSONKeyMapper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)baseMapper:(JSONKeyMapper *)baseKeyMapper withModelToJSONExceptions:(NSDictionary *)toJSON</Declaration>
+			
+			
+			<Anchor>//api/name/baseMapper:withModelToJSONExceptions:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

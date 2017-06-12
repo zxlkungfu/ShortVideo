@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SVProgressHUDAnimationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SVProgressHUDAnimationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+			
+			<NodeRef refid="71"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SVProgressHUDAnimationTypeFlat</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SVProgressHUDAnimationTypeFlat</Declaration>
+            
+            <DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SVProgressHUDAnimationTypeNative</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SVProgressHUDAnimationTypeNative</Declaration>
+            
+            <DeclaredIn>SVProgressHUD.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

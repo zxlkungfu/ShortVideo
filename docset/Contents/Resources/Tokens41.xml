@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshNormalHeader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshNormalHeader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshNormalHeader/setActivityIndicatorViewStyle:</TokenIdentifier>
+			<Abstract type="html">菊花的样式</Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) UIActivityIndicatorViewStyle activityIndicatorViewStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorViewStyle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshNormalHeader/activityIndicatorViewStyle</TokenIdentifier>
+			<Abstract type="html">菊花的样式</Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) UIActivityIndicatorViewStyle activityIndicatorViewStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorViewStyle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshNormalHeader/activityIndicatorViewStyle</TokenIdentifier>
+			<Abstract type="html">菊花的样式</Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) UIActivityIndicatorViewStyle activityIndicatorViewStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorViewStyle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshNormalHeader/prepare</TokenIdentifier>
+			<Abstract type="html">初始化</Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)prepare</Declaration>
+			
+			
+			<Anchor>//api/name/prepare</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshNormalHeader/placeSubviews</TokenIdentifier>
+			<Abstract type="html">摆放子控件frame</Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)placeSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/placeSubviews</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshNormalHeader/setState:</TokenIdentifier>
+			<Abstract type="html">刷新状态 一般交给子类内部实现</Abstract>
+			<DeclaredIn>MJRefreshNormalHeader.m</DeclaredIn>
+			
+			<Declaration>- (void)setState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setState:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

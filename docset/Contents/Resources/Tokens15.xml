@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AFQueryStringPair.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AFQueryStringPair</TokenIdentifier>
+			<Abstract type="html">Returns a percent-escaped string following RFC 3986 for a query string key or value.
+RFC 3986 states that the following characters are &quot;reserved&quot; characters.
+    - General Delimiters: &quot;:&quot;, &quot;#&quot;, &quot;[&quot;, &quot;]&quot;, &quot;@&quot;, &quot;?&quot;, &quot;/&quot;
+    - Sub-Delimiters: &quot;!&quot;, &quot;$&quot;, &quot;&amp;amp;&quot;, &quot;&apos;&quot;, &quot;(&quot;, &quot;)&quot;, &quot;*&quot;, &quot;+&quot;, &quot;,&quot;, &quot;;&quot;, &quot;=&quot;</Abstract>
+			<DeclaredIn>AFURLRequestSerialization.m</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

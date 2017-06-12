@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MJRefreshAutoFooter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MJRefreshAutoFooter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/setAutomaticallyRefresh:</TokenIdentifier>
+			<Abstract type="html">是否自动刷新(默认为YES)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isAutomaticallyRefresh) BOOL automaticallyRefresh</Declaration>
+			
+			
+			<Anchor>//api/name/automaticallyRefresh</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/isAutomaticallyRefresh</TokenIdentifier>
+			<Abstract type="html">是否自动刷新(默认为YES)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isAutomaticallyRefresh) BOOL automaticallyRefresh</Declaration>
+			
+			
+			<Anchor>//api/name/automaticallyRefresh</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoFooter/automaticallyRefresh</TokenIdentifier>
+			<Abstract type="html">是否自动刷新(默认为YES)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, getter=isAutomaticallyRefresh) BOOL automaticallyRefresh</Declaration>
+			
+			
+			<Anchor>//api/name/automaticallyRefresh</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/set:</TokenIdentifier>
+			<Abstract type="html">当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat appearencePercentTriggerAutoRefresh MJRefreshDeprecated ( &quot;请使用triggerAutomaticallyRefreshPercent属性&quot; )</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/)</TokenIdentifier>
+			<Abstract type="html">当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat appearencePercentTriggerAutoRefresh MJRefreshDeprecated ( &quot;请使用triggerAutomaticallyRefreshPercent属性&quot; )</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoFooter/)</TokenIdentifier>
+			<Abstract type="html">当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat appearencePercentTriggerAutoRefresh MJRefreshDeprecated ( &quot;请使用triggerAutomaticallyRefreshPercent属性&quot; )</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/setTriggerAutomaticallyRefreshPercent:</TokenIdentifier>
+			<Abstract type="html">当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat triggerAutomaticallyRefreshPercent</Declaration>
+			
+			
+			<Anchor>//api/name/triggerAutomaticallyRefreshPercent</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/triggerAutomaticallyRefreshPercent</TokenIdentifier>
+			<Abstract type="html">当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat triggerAutomaticallyRefreshPercent</Declaration>
+			
+			
+			<Anchor>//api/name/triggerAutomaticallyRefreshPercent</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MJRefreshAutoFooter/triggerAutomaticallyRefreshPercent</TokenIdentifier>
+			<Abstract type="html">当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新)</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) CGFloat triggerAutomaticallyRefreshPercent</Declaration>
+			
+			
+			<Anchor>//api/name/triggerAutomaticallyRefreshPercent</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/prepare</TokenIdentifier>
+			<Abstract type="html">初始化</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)prepare</Declaration>
+			
+			
+			<Anchor>//api/name/prepare</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/scrollViewContentSizeDidChange:</TokenIdentifier>
+			<Abstract type="html">当scrollView的contentSize发生改变的时候调用</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)scrollViewContentSizeDidChange:(NSDictionary *)change</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViewContentSizeDidChange:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/scrollViewContentOffsetDidChange:</TokenIdentifier>
+			<Abstract type="html">当scrollView的contentOffset发生改变的时候调用</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViewContentOffsetDidChange:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/scrollViewPanStateDidChange:</TokenIdentifier>
+			<Abstract type="html">当scrollView的拖拽状态发生改变的时候调用</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)scrollViewPanStateDidChange:(NSDictionary *)change</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViewPanStateDidChange:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MJRefreshAutoFooter/setState:</TokenIdentifier>
+			<Abstract type="html">刷新状态 一般交给子类内部实现</Abstract>
+			<DeclaredIn>MJRefreshAutoFooter.m</DeclaredIn>
+			
+			<Declaration>- (void)setState:(MJRefreshState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setState:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
