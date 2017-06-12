@@ -19,8 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self setTabBarControllers];
     
+}
+
+- (void)setTabBarControllers {
     NSArray *vcArray = @[
                          @"VideoViewController",
                          @"FriendViewController",
@@ -47,8 +50,7 @@
     
     self.tabBar.barTintColor = [UIColor tabColor];
     self.tabBar.tintColor = [UIColor tabSelectedColor];
-    
-        
+
 }
 
 - (void)didReceiveMemoryWarning {
